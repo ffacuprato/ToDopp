@@ -1,0 +1,121 @@
+.App{
+    display: flex;
+    max-width: 100%;
+    background-color: #2f74c0;
+}
+.input{
+    display: flex;
+    width: 95%;
+    position: relative;
+    align-items: center;
+}
+.input_box{
+    width: 100%;
+    border-radius: 50px;
+    padding: 30px 30px;
+    font-size: 25px;
+    border: none;
+    transition: .2s;
+    box-shadow: inset 0 0 5px black;
+}
+.input_box:focus{
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, .5);
+    outline: none;
+}
+.input_submit{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: #2f74c0;
+    color: #FFF;
+    transition: .2s all;
+    box-shadow: 0 0 10px black;
+}
+
+.input_submit:hover{
+    background-color: #388AE2;
+}
+.input_submit:active{
+    transform: scale(0.8);
+    box-shadow: 0 0 5px blackkl;
+}
+
+.container{
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.toDos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 47.5%;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 15px 5px;
+    margin-top: 15px;
+    min-height: 140px;
+    background-color: rgb(54, 86, 122)
+}
+
+.toDos__heading{
+   font-size: 30px;
+   color: white; 
+}
+.todos__single{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: lightgrey;
+}
+.todos__single--text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Nunito';
+}
+.todos__single--text:focus{
+    outline: none;
+}
+.icon{
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width:1200px){
+    .todos{
+        width: 40%;
+    }
+}
+
+@media (max-width: 700px) {
+    .input{
+        width: 95%;
+    }
+    .toDos{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 95%;
+        flex-direction: column;
+    }
+}
