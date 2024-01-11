@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ffacuprato.github.io/ToDopp/static/css/main.78d0acbf.css",
+    "main.js": "/ffacuprato.github.io/ToDopp/static/js/main.012e2af0.js",
+    "index.html": "/ffacuprato.github.io/ToDopp/index.html",
+    "main.78d0acbf.css.map": "/ffacuprato.github.io/ToDopp/static/css/main.78d0acbf.css.map",
+    "main.012e2af0.js.map": "/ffacuprato.github.io/ToDopp/static/js/main.012e2af0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78d0acbf.css",
+    "static/js/main.012e2af0.js"
+  ]
+}
